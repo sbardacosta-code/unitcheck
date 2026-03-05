@@ -7,7 +7,7 @@
 
 function celsiusToFahrenheit(c) {
   // Formula: (c × 9/5) + 32
-  return Math.round(c * 9/5 + 32);
+  return (Math.round(c * 9/5*100)/100) + 32;
 }
 
 function kmToMiles(km) {

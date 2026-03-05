@@ -52,3 +52,7 @@ test("boiling point: 100°C should equal 212°F", () => {
 test("1 Liter should equal 0.26 gallons rounded", () => {
   expect(litersToGallons(1)).toBe(0.26);
 });
+
+test("Farhenheit degrees should have 1 decimal point rounded, so 1°C should equal 33.8°F rounded", () => {
+  expect(celsiusToFahrenheit(1)).toBe(33.8);
+});
